@@ -12,7 +12,7 @@ Yaswanth, Codebasics AI PM Bootcamp.
 | 2 | AI opportunity map | `Capstone1_Yaswanth_OpportunityMap.pdf` / `.png`, `..._MiroImport.csv`, scoring in `Capstone1_Yaswanth_OpportunityScoring.xlsx` |
 | 3 | AI PRD | `Capstone1_Yaswanth_AI_PRD.docx` |
 | 4 | Cost estimation | `Capstone1_Yaswanth_CostEstimation.xlsx` |
-| 5 | Working prototype + README | [`Atliq_Recall/`](Atliq_Recall/) (deployed on Vercel: link to be added) |
+| 5 | Working prototype + README | Live app: [code-basics-ai-pm.vercel.app](https://code-basics-ai-pm.vercel.app/). Code: [`Atliq_Recall/`](Atliq_Recall/) |
 | 6 | Presentation | Slide deck (link to be added) |
 | 7 | Demo video | Script: `Capstone1_Yaswanth_DemoVideo_Script.md` (video link to be added) |
 

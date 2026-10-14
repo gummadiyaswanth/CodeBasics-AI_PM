@@ -13,7 +13,18 @@ export interface Completion { text: string; usage: Usage; model: string; provide
 const SIGNAL_TYPES = new Set(["client_request", "commitment", "deadline", "meeting", "budget", "competitor", "cross_sell", "renewal", "referral", "stakeholder", "new_lead", "status_signal", "need"]);
 
 // ---------- Gemini (REST, no SDK) ----------
-async function gemini(model: string, system: string, user: string, maxTokens: number, json: boolean): Promise<Completion> {
+// Free-tier models sometimes return "high demand" (503) or a rate limit (429). We retry once, then
+// step down to the next free model. The model that actually answered is reported back to the UI.
+const GEMINI_FALLBACKS: Record<string, string[]> = {
+  "gemini-3.8-flash": ["gemini-3.6-flash", "gemini-3.5-flash-lite"],
+  "gemini-3.6-flash": ["gemini-3.5-flash-lite"],
+  "gemini-3.5-flash-lite": ["gemini-3.1-flash-lite", "gemini-3.6-flash"],
+  "gemini-3.1-flash-lite": ["gemini-3.5-flash-lite"],
+};
+class Busy extends Error {}
+const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+async function geminiOnce(model: string, system: string, user: string, maxTokens: number, json: boolean): Promise<Completion> {
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
     method: "POST",
     headers: { "content-type": "application/json", "x-goog-api-key": process.env.GEMINI_API_KEY! },
@@ -26,13 +37,30 @@ async function gemini(model: string, system: string, user: string, maxTokens: nu
   const body: any = await r.json().catch(() => ({}));
   if (!r.ok) {
     const msg = body?.error?.message || `HTTP ${r.status}`;
-    if (r.status === 429) throw new Error(`Gemini free-tier limit reached; wait a minute and try again (${msg})`);
+    if (r.status === 429 || r.status === 503 || /high demand|overloaded|unavailable/i.test(msg)) throw new Busy(msg);
     throw new Error(`Gemini: ${msg}`);
   }
   const text = (body?.candidates?.[0]?.content?.parts ?? []).map((p: any) => p.text ?? "").join("");
   if (!text) throw new Error(`Gemini returned no text (finish reason: ${body?.candidates?.[0]?.finishReason ?? "unknown"})`);
   const u = body?.usageMetadata ?? {};
   return { text, model, provider: "gemini", usage: { input_tokens: u.promptTokenCount ?? 0, output_tokens: u.candidatesTokenCount ?? 0 } };
+}
+
+async function gemini(model: string, system: string, user: string, maxTokens: number, json: boolean): Promise<Completion> {
+  const chain = [model, ...(GEMINI_FALLBACKS[model] ?? [])];
+  let last = "";
+  for (let i = 0; i < chain.length; i++) {
+    for (let attempt = 0; attempt < (i === 0 ? 2 : 1); attempt++) {
+      try {
+        return await geminiOnce(chain[i], system, user, maxTokens, json);
+      } catch (e: any) {
+        if (!(e instanceof Busy)) throw e;
+        last = e.message;
+        if (i === 0 && attempt === 0) await wait(1200);
+      }
+    }
+  }
+  throw new Error(`Gemini free-tier models are busy or rate-limited right now; wait a minute and try again (${last})`);
 }
 
 // ---------- Claude ----------

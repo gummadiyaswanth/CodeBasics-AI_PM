@@ -2,6 +2,8 @@
 
 Capstone 1 (AtliQ Sales & CRM Assistant), Step 5 prototype. Author: Yaswanth.
 
+**Live app:** https://code-basics-ai-pm.vercel.app/ (Gemini free tier; if a model is busy it retries, then falls back to the next free Gemini model).
+
 **The problem it solves:** AtliQ has leads; it lacks memory. Client asks, our promises and deadlines arrive on email, WhatsApp, iMessage, Slack, Teams and phone calls, and never reach the Kaizen CRM. Recall reads those conversations, finds every client who is waiting on AtliQ, ranks them by the founders' own rules, drafts the follow-up, and proposes CRM updates for approval. It cites the exact words behind every claim.
 
 ## What you can do in the app

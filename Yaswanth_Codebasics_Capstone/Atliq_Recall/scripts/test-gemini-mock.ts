@@ -33,5 +33,15 @@ ok(r.dropped.length === 2, `dropped invented quote + unknown type (got ${r.dropp
 ok(r.signals[1].due === null, "unparseable date 'Tuesday' set to null, not guessed");
 ok(r.usage.input_tokens === 1500 && r.usage.output_tokens === 300, "usage mapped");
 
+// Busy primary model: falls back to the next free model and reports which one answered.
+const tried: string[] = [];
+(globalThis as any).fetch = async (url: string) => {
+  const m = String(url).match(/models\/([^:]+):/)![1]; tried.push(m);
+  if (m === "gemini-3.8-flash") return new Response(JSON.stringify({ error: { message: "This model is currently experiencing high demand." } }), { status: 503 });
+  return new Response(JSON.stringify({ candidates: [{ content: { parts: [{ text: "ok" }] } }], usageMetadata: {} }), { status: 200 });
+};
+const fb = await complete("draft", "s", "u", 100);
+ok(fb.model === "gemini-3.6-flash" && tried.join(",") === "gemini-3.8-flash,gemini-3.8-flash,gemini-3.6-flash", `busy model retried once, then fell back (${tried.join(" > ")})`);
+
 (globalThis as any).fetch = async () => new Response(JSON.stringify({ error: { message: "Resource exhausted" } }), { status: 429 });
-try { await complete("draft", "s", "u", 100); ok(false, "429 should throw"); } catch (e: any) { ok(e.message.includes("free-tier limit"), "429 gives a clear free-tier message"); }
+try { await complete("draft", "s", "u", 100); ok(false, "all-busy should throw"); } catch (e: any) { ok(e.message.includes("busy or rate-limited"), "all models busy gives a clear wait-a-minute message"); }
