@@ -8,13 +8,13 @@ Yaswanth, Codebasics AI PM Bootcamp.
 
 | # | Deliverable | File |
 |---|---|---|
-| 1 | User research worksheet | `Capstone1_Yaswanth_UserResearch.xlsx` |
-| 2 | AI opportunity map | `Capstone1_Yaswanth_OpportunityMap.pdf` / `.png`, `..._MiroImport.csv`, scoring in `Capstone1_Yaswanth_OpportunityScoring.xlsx` |
-| 3 | AI PRD | `Capstone1_Yaswanth_AI_PRD.docx` |
-| 4 | Cost estimation | `Capstone1_Yaswanth_CostEstimation.xlsx` |
+| 1 | User research worksheet | [Capstone1_Yaswanth_UserResearch.xlsx](Capstone1_Yaswanth_UserResearch.xlsx) |
+| 2 | AI opportunity map | [Board (PNG)](Capstone1_Yaswanth_OpportunityMap.png), [Board (PDF)](Capstone1_Yaswanth_OpportunityMap.pdf), [Miro import CSV](Capstone1_Yaswanth_OpportunityMap_MiroImport.csv), [Scoring (xlsx)](Capstone1_Yaswanth_OpportunityScoring.xlsx) |
+| 3 | AI PRD (with North Star & Metrics, section 12) | [Capstone1_Yaswanth_AI_PRD.docx](Capstone1_Yaswanth_AI_PRD.docx) |
+| 4 | Cost estimation | [Capstone1_Yaswanth_CostEstimation.xlsx](Capstone1_Yaswanth_CostEstimation.xlsx) |
 | 5 | Working prototype + README | Live app: [code-basics-ai-pm.vercel.app](https://code-basics-ai-pm.vercel.app/). Code: [`Atliq_Recall/`](Atliq_Recall/) |
 | 6 | Presentation | [Capstone1_Yaswanth_Presentation.pptx](Capstone1_Yaswanth_Presentation.pptx) (19 slides) |
-| 7 | Demo video | [youtu.be/NTERSU7Ac9o](https://youtu.be/NTERSU7Ac9o). Script: `Capstone1_Yaswanth_DemoVideo_Script.md` |
+| 7 | Demo video | [youtu.be/NTERSU7Ac9o](https://youtu.be/NTERSU7Ac9o). Script: [Capstone1_Yaswanth_DemoVideo_Script.md](Capstone1_Yaswanth_DemoVideo_Script.md) |
 
 `Capstone1_Yaswanth_Prototype_OfflineDemo.html` is a single-file offline build of the prototype: download it and open it in a browser, no install needed.
 
