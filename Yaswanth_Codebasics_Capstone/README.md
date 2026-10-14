@@ -13,7 +13,7 @@ Yaswanth, Codebasics AI PM Bootcamp.
 | 3 | AI PRD | `Capstone1_Yaswanth_AI_PRD.docx` |
 | 4 | Cost estimation | `Capstone1_Yaswanth_CostEstimation.xlsx` |
 | 5 | Working prototype + README | Live app: [code-basics-ai-pm.vercel.app](https://code-basics-ai-pm.vercel.app/). Code: [`Atliq_Recall/`](Atliq_Recall/) |
-| 6 | Presentation | `Capstone1_Yaswanth_Presentation.pptx` (19 slides) |
+| 6 | Presentation | [Capstone1_Yaswanth_Presentation.pptx](Capstone1_Yaswanth_Presentation.pptx) (19 slides) |
 | 7 | Demo video | [youtu.be/NTERSU7Ac9o](https://youtu.be/NTERSU7Ac9o). Script: `Capstone1_Yaswanth_DemoVideo_Script.md` |
 
 `Capstone1_Yaswanth_Prototype_OfflineDemo.html` is a single-file offline build of the prototype: download it and open it in a browser, no install needed.
