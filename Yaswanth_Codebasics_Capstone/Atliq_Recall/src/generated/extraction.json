@@ -1,0 +1,2160 @@
+{
+ "signals": [
+  {
+   "source": "2025-09-30_quantia_lost_deal",
+   "account": "quantia",
+   "type": "revisit",
+   "summary": "Lost on timing, not fit. Client asked us to check back around Q2 2026 (after acquisition closes).",
+   "quote": "Please do check back with us around then. I mean that.",
+   "raised": "2025-09-30",
+   "due": "2026-06-30",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-001"
+  },
+  {
+   "source": "2025-09-30_quantia_lost_deal",
+   "account": "quantia",
+   "type": "status_signal",
+   "summary": "Loss reason is timing: mid-acquisition, nothing new signed until it closes.",
+   "quote": "honestly it's a timing problem, not a fit problem",
+   "raised": "2025-09-30",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-002"
+  },
+  {
+   "source": "2026-01-15_vertex_ooo_stall",
+   "account": "vertex",
+   "type": "commitment",
+   "summary": "We said we'd reconnect after Naidu returns from leave on 2 Feb. Never happened.",
+   "quote": "No problem — will reconnect in February. Safe travels.",
+   "raised": "2026-01-20",
+   "due": "2026-02-03",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-003"
+  },
+  {
+   "source": "2026-02-05_steelcore_pricing_objection",
+   "account": "steelcore",
+   "type": "competitor",
+   "summary": "Local freelancer quoted under a third of our 14-16k estimate.",
+   "quote": "A local freelancer has quoted us less than a third of this",
+   "raised": "2026-02-10",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-004"
+  },
+  {
+   "source": "2026-02-05_steelcore_pricing_objection",
+   "account": "steelcore",
+   "type": "gone_quiet",
+   "summary": "We answered the pricing objection and offered a call; no reply since 14 Feb.",
+   "quote": "Happy to get on a call and walk through exactly what's included.",
+   "raised": "2026-02-14",
+   "due": null,
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "client",
+   "value_usd": null,
+   "id": "sig-005"
+  },
+  {
+   "source": "2026-03-04_apexauto_cold_outreach",
+   "account": "apexauto",
+   "type": "gone_quiet",
+   "summary": "Two cold emails, no response.",
+   "quote": "bumping this in case it got buried",
+   "raised": "2026-03-20",
+   "due": null,
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "client",
+   "value_usd": null,
+   "id": "sig-006"
+  },
+  {
+   "source": "2026-03-26_finedge_compliance_docs",
+   "account": "finedge",
+   "type": "status_signal",
+   "summary": "Compliance has cleared AtliQ; deal moves to commercial discussion.",
+   "quote": "good news, compliance has cleared AtliQ. We can move to the commercial discussion now.",
+   "raised": "2026-06-19",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-007"
+  },
+  {
+   "source": "2026-03-26_finedge_compliance_docs",
+   "account": "finedge",
+   "type": "client_request",
+   "summary": "Suresh asked us to confirm availability for a commercial call the week of 29 June. Unconfirmed.",
+   "quote": "My assistant will find a slot the week of 29 June — please confirm your availability.",
+   "raised": "2026-06-19",
+   "due": "2026-06-26",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 95000,
+   "id": "sig-008"
+  },
+  {
+   "source": "2026-04-20_healthfirst_board_update",
+   "account": "healthfirst",
+   "type": "deadline",
+   "summary": "Board decision on the patient portal is on 14 July. Check in with Anita before it so she can champion the phased pricing.",
+   "quote": "now scheduled for 14 July",
+   "raised": "2026-04-20",
+   "due": "2026-07-13",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 30000,
+   "id": "sig-009"
+  },
+  {
+   "source": "2026-04-20_healthfirst_board_update",
+   "account": "healthfirst",
+   "type": "budget",
+   "summary": "Board prefers to clear under 20k in one go; we re-phased to 18k + 12k.",
+   "quote": "Phase 1 (patient registration + appointments) at 18k, Phase 2 (records + billing integration) at 12k",
+   "raised": "2026-04-22",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-010"
+  },
+  {
+   "source": "2026-05-04_urbannest_no_response",
+   "account": "urbannest",
+   "type": "gone_quiet",
+   "summary": "Approach note for the site-visit booking app sent; no response.",
+   "quote": "Happy to do a short demo whenever suits.",
+   "raised": "2026-05-04",
+   "due": null,
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "client",
+   "value_usd": null,
+   "id": "sig-011"
+  },
+  {
+   "source": "2026-05-10_bytebridge_competitor",
+   "account": "bytebridge",
+   "type": "competitor",
+   "summary": "TalentGrid quoted about 15% below our rates; client still prefers a referred partner.",
+   "quote": "TalentGrid has quoted us roughly 15% below your rates for the same three profiles",
+   "raised": "2026-05-10",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-012"
+  },
+  {
+   "source": "2026-05-10_bytebridge_competitor",
+   "account": "bytebridge",
+   "type": "commitment",
+   "summary": "Karandeep promised two case studies plus a reference by Friday 15 May. Nothing sent.",
+   "quote": "I'll send both, plus a reference, by Friday.",
+   "raised": "2026-05-12",
+   "due": "2026-05-15",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-013"
+  },
+  {
+   "source": "2026-05-18_freshcart_referral_followup",
+   "account": "freshcart",
+   "type": "commitment",
+   "summary": "Dhaval promised to call Ananya early the next week. The call never happened.",
+   "quote": "I'll call you early next week to set things up.",
+   "raised": "2026-05-20",
+   "due": "2026-05-26",
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-014"
+  },
+  {
+   "source": "2026-05-18_freshcart_referral_followup",
+   "account": "freshcart",
+   "type": "client_request",
+   "summary": "Ananya chased: talking to two other vendors, deciding by mid-July, still wants AtliQ in the mix.",
+   "quote": "We're now in conversations with two other vendors and want to decide by mid-July.",
+   "raised": "2026-06-16",
+   "due": "2026-07-15",
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-015"
+  },
+  {
+   "source": "2026-06-03_zenlytics_intro_call",
+   "account": "zenlytics",
+   "type": "commitment",
+   "summary": "Bhavin confirmed Wed 3pm and promised a calendar invite. No invite was sent.",
+   "quote": "Wednesday 3pm it is. I'll send a calendar invite shortly.",
+   "raised": "2026-06-05",
+   "due": "2026-06-05",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-016"
+  },
+  {
+   "source": "2026-06-03_zenlytics_intro_call",
+   "account": "zenlytics",
+   "type": "need",
+   "summary": "Needs 2 data engineers with dbt + Snowflake, starting August.",
+   "quote": "We're looking for 2 data engineers with dbt + Snowflake experience, ideally starting August.",
+   "raised": "2026-06-04",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-017"
+  },
+  {
+   "source": "2026-06-09_clearpath_budget_unfrozen",
+   "account": "clearpath",
+   "type": "status_signal",
+   "summary": "Lost deal is back: budget freeze lifted, project on the Q3 roadmap.",
+   "quote": "The freeze lifted with the new financial year and the project is back on our roadmap for Q3.",
+   "raised": "2026-06-09",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-018"
+  },
+  {
+   "source": "2026-06-09_clearpath_budget_unfrozen",
+   "account": "clearpath",
+   "type": "client_request",
+   "summary": "Deepa asks whether AtliQ is still interested and whether the 40k estimate holds. Unanswered.",
+   "quote": "Is AtliQ still interested, and does the 40k estimate still hold?",
+   "raised": "2026-06-09",
+   "due": null,
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 40000,
+   "id": "sig-019"
+  },
+  {
+   "source": "2026-06-10_sunrise_foods_reactivation",
+   "account": "sunrise",
+   "type": "client_request",
+   "summary": "Existing client wants a v2 of the distributor portal (40 to 110 distributors).",
+   "quote": "would AtliQ want to do a v2?",
+   "raised": "2026-06-10",
+   "due": null,
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-020"
+  },
+  {
+   "source": "2026-06-10_sunrise_foods_reactivation",
+   "account": "sunrise",
+   "type": "commitment",
+   "summary": "Dhaval said he'd set up a call after travelling. No call scheduled.",
+   "quote": "let me set up a call when I'm back.",
+   "raised": "2026-06-14",
+   "due": "2026-06-19",
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-021"
+  },
+  {
+   "source": "2026-06-10_sunrise_foods_reactivation",
+   "account": "sunrise",
+   "type": "cross_sell",
+   "summary": "CFO wants the portal data to feed a sales dashboard: a Power BI cross-sell.",
+   "quote": "our CFO keeps asking if the portal data can feed into some kind of sales dashboard",
+   "raised": "2026-06-10",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-022"
+  },
+  {
+   "source": "2026-06-11_northwind_crosssell",
+   "account": "northwind",
+   "type": "cross_sell",
+   "summary": "CEO wants a Power BI dashboard layer on top of the pipeline we built.",
+   "quote": "Does AtliQ also do the dashboard layer on top?",
+   "raised": "2026-06-11",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-023"
+  },
+  {
+   "source": "2026-06-11_northwind_crosssell",
+   "account": "northwind",
+   "type": "commitment",
+   "summary": "Dhaval promised sample dashboard concepts 'next week'. Not sent.",
+   "quote": "Let me send you a few sample dashboard concepts next week to react to.",
+   "raised": "2026-06-13",
+   "due": "2026-06-19",
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-024"
+  },
+  {
+   "source": "2026-06-15_voltenergy_competitor",
+   "account": "voltenergy",
+   "type": "competitor",
+   "summary": "Also evaluating a Tableau consultancy.",
+   "quote": "we're also evaluating a Tableau consultancy for this",
+   "raised": "2026-06-15",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-025"
+  },
+  {
+   "source": "2026-06-15_voltenergy_competitor",
+   "account": "voltenergy",
+   "type": "client_request",
+   "summary": "Marcus asked for a 3-year TCO comparison 'this week'. Unanswered.",
+   "quote": "That TCO comparison would actually help a lot — board asks for 3-year numbers. Can you send it this week?",
+   "raised": "2026-07-01",
+   "due": "2026-07-03",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 28000,
+   "id": "sig-026"
+  },
+  {
+   "source": "2026-06-16_meridian_proposal_questions",
+   "account": "meridian",
+   "type": "client_request",
+   "summary": "IT director has two questions on the proposal: HL7 support, and whether the 14 weeks include clinician UAT. Unanswered.",
+   "quote": "Two questions from our IT director before we can move ahead:",
+   "raised": "2026-06-16",
+   "due": "2026-07-15",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 45000,
+   "id": "sig-027"
+  },
+  {
+   "source": "2026-06-16_meridian_proposal_questions",
+   "account": "meridian",
+   "type": "deadline",
+   "summary": "They want to close before their budget review in mid-July.",
+   "quote": "We'd like to close this out before our Q2 budget review in mid-July.",
+   "raised": "2026-06-16",
+   "due": "2026-07-15",
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-028"
+  },
+  {
+   "source": "2026-06-18_acme_retail_monthly_reports",
+   "account": "acme",
+   "type": "commitment",
+   "summary": "Dhaval promised a scope note for automating the monthly board pack 'this week' (Ayush copied). Not sent.",
+   "quote": "we'll send you a short scope note this week",
+   "raised": "2026-06-19",
+   "due": "2026-06-26",
+   "owner": "Ayush",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-029"
+  },
+  {
+   "source": "2026-06-18_acme_retail_monthly_reports",
+   "account": "acme",
+   "type": "cross_sell",
+   "summary": "Ops team struggles with seasonal inventory forecasting: new opportunity.",
+   "quote": "our ops team has been struggling with inventory forecasting for seasonal SKUs",
+   "raised": "2026-06-18",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-030"
+  },
+  {
+   "source": "2026-06-18_acme_retail_monthly_reports",
+   "account": "acme",
+   "type": "referral",
+   "summary": "Priya referred FreshCart (Ananya Desai).",
+   "quote": "I passed your details to Ananya Desai at FreshCart",
+   "raised": "2026-06-18",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-031"
+  },
+  {
+   "source": "2026-06-20_lumino_fitness_case_study",
+   "account": "lumino",
+   "type": "new_lead",
+   "summary": "TechSummit contact never entered in CRM; budgeting for next quarter now.",
+   "quote": "we're budgeting for next quarter right now",
+   "raised": "2026-06-20",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-032"
+  },
+  {
+   "source": "2026-06-20_lumino_fitness_case_study",
+   "account": "lumino",
+   "type": "client_request",
+   "summary": "Carlos is waiting for the churn-prediction case study Jay promised at TechSummit.",
+   "quote": "You mentioned you'd send over the case study about the member-churn prediction work you did for a fitness chain.",
+   "raised": "2026-06-20",
+   "due": null,
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-033"
+  },
+  {
+   "source": "2026-06-21_cloudnine_rates_references",
+   "account": "cloudnine",
+   "type": "commitment",
+   "summary": "Karandeep promised two reference names 'in a day or two'. Never sent.",
+   "quote": "will revert with names in a day or two",
+   "raised": "2026-06-22",
+   "due": "2026-06-24",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-034"
+  },
+  {
+   "source": "2026-06-21_cloudnine_rates_references",
+   "account": "cloudnine",
+   "type": "client_request",
+   "summary": "Dev chased the references; comparing with one other vendor, closing by mid-July.",
+   "quote": "We're comparing you with one other vendor and want to close this out by mid-July.",
+   "raised": "2026-07-06",
+   "due": "2026-07-15",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-035"
+  },
+  {
+   "source": "2026-06-23_kaveri_vendor_failed",
+   "account": "kaveri",
+   "type": "status_signal",
+   "summary": "Lost deal reopened: the cheaper local vendor failed; client wants to move quickly.",
+   "quote": "Is your quote from November still valid? We'd want to move quickly this time.",
+   "raised": "2026-06-23",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-036"
+  },
+  {
+   "source": "2026-06-24_globalmart_pricing",
+   "account": "globalmart",
+   "type": "client_request",
+   "summary": "Neha asks us to choose: trim analytics to Phase 2, or full scope at a lower figure (number is ~20% over budget).",
+   "quote": "Two options from our side: trim the analytics module to Phase 2, or hold the full scope at a lower figure. Which works better for you?",
+   "raised": "2026-06-24",
+   "due": "2026-07-03",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 62000,
+   "id": "sig-037"
+  },
+  {
+   "source": "2026-06-24_globalmart_pricing",
+   "account": "globalmart",
+   "type": "commitment",
+   "summary": "Karandeep promised a phasing answer by Friday 3 July. Not sent.",
+   "quote": "(Will respond by Friday.)",
+   "raised": "2026-06-26",
+   "due": "2026-07-03",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-038"
+  },
+  {
+   "source": "2026-06-24_globalmart_pricing",
+   "account": "globalmart",
+   "type": "cross_sell",
+   "summary": "Supply-chain colleague asked if AtliQ does demand forecasting. Unanswered.",
+   "quote": "my colleague in supply chain asked whether you do demand forecasting. Do you?",
+   "raised": "2026-06-24",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-039"
+  },
+  {
+   "source": "2026-06-25_novapharma_stakeholders",
+   "account": "novapharma",
+   "type": "stakeholder",
+   "summary": "Two new stakeholders gate the deal: Rajesh (IT security) and Emma (procurement).",
+   "quote": "Copying Rajesh (IT security) and Emma (procurement).",
+   "raised": "2026-06-25",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-040"
+  },
+  {
+   "source": "2026-06-25_novapharma_stakeholders",
+   "account": "novapharma",
+   "type": "client_request",
+   "summary": "Emma needs three healthcare/pharma references.",
+   "quote": "Emma will need three references from healthcare/pharma clients.",
+   "raised": "2026-06-25",
+   "due": "2026-07-24",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 80000,
+   "id": "sig-041"
+  },
+  {
+   "source": "2026-06-25_novapharma_stakeholders",
+   "account": "novapharma",
+   "type": "deadline",
+   "summary": "Everything must be wrapped by end of July to make this year's budget.",
+   "quote": "Realistically we need everything wrapped by end of July to make this year's budget.",
+   "raised": "2026-06-25",
+   "due": "2026-07-31",
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-042"
+  },
+  {
+   "source": "2026-06-27_harborfinch_referral_intro",
+   "account": "harborfinch",
+   "type": "new_lead",
+   "summary": "Referral from Suresh (FinEdge): boutique advisory firm, ~120 manual client reports a quarter. Not in CRM.",
+   "quote": "We produce ~120 client reports a quarter, all manual.",
+   "raised": "2026-06-27",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-043"
+  },
+  {
+   "source": "2026-06-27_harborfinch_referral_intro",
+   "account": "harborfinch",
+   "type": "client_request",
+   "summary": "David asked for a call in the next couple of weeks. Unanswered.",
+   "quote": "Do you have time in the next couple of weeks?",
+   "raised": "2026-06-27",
+   "due": "2026-07-11",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-044"
+  },
+  {
+   "source": "2026-06-28_oceanfreight_timezones",
+   "account": "oceanfreight",
+   "type": "meeting",
+   "summary": "Discovery call booked for 14 July, 8:00 CET / 11:30 IST.",
+   "quote": "14 July 8:00 CET / 11:30 IST confirmed — invite sent.",
+   "raised": "2026-07-03",
+   "due": "2026-07-14",
+   "owner": "Jay",
+   "status": "scheduled",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-045"
+  },
+  {
+   "source": "2026-06-29_pixelworks_partnership",
+   "account": "pixelworks",
+   "type": "new_lead",
+   "summary": "Design agency wants a standing white-label partner: potentially 3-4 projects a quarter. Not in CRM.",
+   "quote": "Potentially 3–4 projects a quarter.",
+   "raised": "2026-06-29",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-046"
+  },
+  {
+   "source": "2026-06-29_pixelworks_partnership",
+   "account": "pixelworks",
+   "type": "client_request",
+   "summary": "Tara asked who the right person to speak with is. Unanswered.",
+   "quote": "Who's the right person to speak with?",
+   "raised": "2026-06-29",
+   "due": null,
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-047"
+  },
+  {
+   "source": "2026-06-29_shopswift_budget_confirmed",
+   "account": "shopswift",
+   "type": "budget",
+   "summary": "Leadership approved 55k for the recommendation engine.",
+   "quote": "leadership has formally approved 55k for the recommendation engine this fiscal year",
+   "raised": "2026-06-29",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-048"
+  },
+  {
+   "source": "2026-06-29_shopswift_budget_confirmed",
+   "account": "shopswift",
+   "type": "client_request",
+   "summary": "Elena needs a statement of work by 15 July or budget slips a quarter.",
+   "quote": "What I need from you: a statement of work by 15 July",
+   "raised": "2026-06-29",
+   "due": "2026-07-15",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 55000,
+   "id": "sig-049"
+  },
+  {
+   "source": "2026-06-30_datanest_renewal",
+   "account": "datanest",
+   "type": "renewal",
+   "summary": "Contract ends end of September; client wants to renew early.",
+   "quote": "Our contract runs out end of September. Can we sort the renewal early so there's no gap?",
+   "raised": "2026-06-30",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-050"
+  },
+  {
+   "source": "2026-06-30_datanest_renewal",
+   "account": "datanest",
+   "type": "cross_sell",
+   "summary": "Raised Series A; wants a third engineer strong on Kafka.",
+   "quote": "want to add a third engineer, ideally someone strong on Kafka",
+   "raised": "2026-06-30",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-051"
+  },
+  {
+   "source": "2026-06-30_datanest_renewal",
+   "account": "datanest",
+   "type": "meeting",
+   "summary": "Call proposed for Wed 8 July. Date has passed and no notes were captured: log the outcome.",
+   "quote": "Let's do a call Wednesday 8 July to lock the renewal and discuss the Kafka profile.",
+   "raised": "2026-07-02",
+   "due": "2026-07-08",
+   "owner": "Karandeep",
+   "status": "needs_outcome",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-052"
+  },
+  {
+   "source": "2026-06-30_novapharma_security_questionnaire",
+   "account": "novapharma",
+   "type": "client_request",
+   "summary": "78-question vendor security questionnaire due 24 July. Not started.",
+   "quote": "We need the completed document back by 24 July to keep the procurement timeline.",
+   "raised": "2026-06-30",
+   "due": "2026-07-24",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 80000,
+   "id": "sig-053"
+  },
+  {
+   "source": "2026-06-30_novapharma_security_questionnaire",
+   "account": "novapharma",
+   "type": "handoff",
+   "summary": "Bhavin forwarded the questionnaire to Pranav on 1 July. No acknowledgement.",
+   "quote": "Pranav — can you take a first pass at this?",
+   "raised": "2026-07-01",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-054"
+  },
+  {
+   "source": "2026-07-02_paytrack_phase2",
+   "account": "paytrack",
+   "type": "cross_sell",
+   "summary": "Ops team wants the fraud scoring applied to merchant onboarding.",
+   "quote": "the ops team wants the same scoring applied to merchant onboarding, not just transactions",
+   "raised": "2026-07-02",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-055"
+  },
+  {
+   "source": "2026-07-02_paytrack_phase2",
+   "account": "paytrack",
+   "type": "client_request",
+   "summary": "Shreya asked for a merchant-risk one-pager before their August planning cycle.",
+   "quote": "if you sent us a one-pager on what a merchant-risk module would look like, I could circulate it before our August planning cycle.",
+   "raised": "2026-07-02",
+   "due": "2026-07-31",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-056"
+  },
+  {
+   "source": "2026-07-03_greengrid_new_lead",
+   "account": "greengrid",
+   "type": "status_signal",
+   "summary": "Inbound website lead moved to discovery call on 9 July.",
+   "quote": "Thursday works.",
+   "raised": "2026-07-04",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-057"
+  },
+  {
+   "source": "2026-07-03_trustline_approved",
+   "account": "trustline",
+   "type": "status_signal",
+   "summary": "Board approved the project on annual-license framing; wants revised contract to sign this month.",
+   "quote": "the loan document automation project is approved",
+   "raised": "2026-07-03",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-058"
+  },
+  {
+   "source": "2026-07-03_trustline_approved",
+   "account": "trustline",
+   "type": "commitment",
+   "summary": "Dhaval promised the revised contract 'this week'. Closed: the 9 Jul call summary confirms Mohan received it on 8 July.",
+   "quote": "Revised contract will be with you this week",
+   "raised": "2026-07-06",
+   "due": "2026-07-10",
+   "owner": "Dhaval",
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-059"
+  },
+  {
+   "source": "2026-07-05_nimbus_lending_intro",
+   "account": "nimbus",
+   "type": "new_lead",
+   "summary": "Referral from Shreya (PayTrack): ~4,000 loan applications a month, all manual. Not in CRM.",
+   "quote": "we process ~4,000 loan applications a month, all manually reviewed",
+   "raised": "2026-07-06",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-060"
+  },
+  {
+   "source": "2026-07-05_nimbus_lending_intro",
+   "account": "nimbus",
+   "type": "client_request",
+   "summary": "Rhea wants a call before her budget conversations the week of 20 July. Unanswered.",
+   "quote": "I have budget conversations happening the week of 20 July, so a call before then would be ideal.",
+   "raised": "2026-07-06",
+   "due": "2026-07-17",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-061"
+  },
+  {
+   "source": "2026-07-06_citywide_referral",
+   "account": "citywide",
+   "type": "meeting",
+   "summary": "Intro call booked Monday 13 July, 11am (referral from Anita, HealthFirst).",
+   "quote": "Monday 13th, 11am works. See you then.",
+   "raised": "2026-07-07",
+   "due": "2026-07-13",
+   "owner": "Karandeep",
+   "status": "scheduled",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-062"
+  },
+  {
+   "source": "2026-07-07_mirahealth_quick_summary",
+   "account": "mirahealth",
+   "type": "status_signal",
+   "summary": "Second call done: scope UK ops first, ~35k confirmed verbally, CTO ex-NHS wants clinical safety docs.",
+   "quote": "They want the triage assistant scoped for UK ops first, not India. Budget ~35k confirmed verbally.",
+   "raised": "2026-07-06",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-063"
+  },
+  {
+   "source": "2026-07-07_mirahealth_quick_summary",
+   "account": "mirahealth",
+   "type": "stakeholder",
+   "summary": "CTO is ex-NHS and particular about clinical safety documentation.",
+   "quote": "their CTO is ex-NHS and very particular about clinical safety docs",
+   "raised": "2026-07-06",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-064"
+  },
+  {
+   "source": "2026-07-08_eduspark_website_enquiry",
+   "account": "eduspark",
+   "type": "client_request",
+   "summary": "Website enquiry from 25 June never answered; Vikram followed up directly. Admissions spike Aug-Sep, budget closes mid-August.",
+   "quote": "I submitted an enquiry through your website on 25 June about an AI assistant for student queries and haven't heard back",
+   "raised": "2026-06-25",
+   "due": "2026-08-14",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-065"
+  },
+  {
+   "source": "2026-07-08_eduspark_website_enquiry",
+   "account": "eduspark",
+   "type": "stakeholder",
+   "summary": "Decision-maker is Prof. Meenakshi Iyer, Dean of Digital Learning.",
+   "quote": "that's Prof. Meenakshi Iyer, our Dean of Digital Learning",
+   "raised": "2026-07-08",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-066"
+  },
+  {
+   "source": "2026-04-05_smartserve_intro_call",
+   "account": "smartserve",
+   "type": "commitment",
+   "summary": "Jay owed Arvind a reference call with a past client. Never arranged; account silent since 8 Apr.",
+   "quote": "Reference call with a past client for Arvind — Jay",
+   "raised": "2026-04-05",
+   "due": "2026-04-15",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-067"
+  },
+  {
+   "source": "2026-05-19_globalmart_demo",
+   "account": "globalmart",
+   "type": "status_signal",
+   "summary": "Demo of Pranav's vendor-portal prototype landed; questions on SSO and audit logs.",
+   "quote": "went down well, questions on SSO and audit logs",
+   "raised": "2026-05-19",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-068"
+  },
+  {
+   "source": "2026-06-03_trustline_negotiation",
+   "account": "trustline",
+   "type": "status_signal",
+   "summary": "CFO wants annual-license framing and ROI per loan file.",
+   "quote": "we quoted per-document pricing, he wants annual license framing instead",
+   "raised": "2026-06-03",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-069"
+  },
+  {
+   "source": "2026-06-13_medtrack_scribble",
+   "account": "medtrack",
+   "type": "commitment",
+   "summary": "Promised intro deck + healthcare case studies 'this week'. Service interest unclear (lab ops dashboards or LIMS).",
+   "quote": "asked for our intro deck + healthcare case studies",
+   "raised": "2026-06-13",
+   "due": "2026-06-19",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-070"
+  },
+  {
+   "source": "2026-06-14_techsummit_debrief",
+   "account": "meridian",
+   "type": "duplicate",
+   "summary": "Same hospital group entered twice (L-1003 Bhavin, L-1027 Jay).",
+   "quote": "(Now sitting in CRM twice: L-1003 and L-1027.)",
+   "raised": "2026-06-14",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-071"
+  },
+  {
+   "source": "2026-06-14_techsummit_debrief",
+   "account": "techsummit",
+   "type": "data_gap",
+   "summary": "8-10 conference cards never processed.",
+   "quote": "8–10 more cards in the drawer, not yet gone through",
+   "raised": "2026-06-14",
+   "due": "2026-06-21",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-072"
+  },
+  {
+   "source": "2026-06-19_blueorchid_call",
+   "account": "blueorchid",
+   "type": "commitment",
+   "summary": "Jay promised an approach note for review analytics across 12 properties; client asked about pilot cost. Blocked: email missing.",
+   "quote": "said I'd send an approach note",
+   "raised": "2026-06-19",
+   "due": "2026-06-24",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-073"
+  },
+  {
+   "source": "2026-06-24_acme_quarterly_review",
+   "account": "acme",
+   "type": "cross_sell",
+   "summary": "Seasonal inventory forecasting: separate conversation with Acme's COO. Not logged anywhere.",
+   "quote": "New opportunity, not logged anywhere.",
+   "raised": "2026-06-24",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-074"
+  },
+  {
+   "source": "2026-06-24_acme_quarterly_review",
+   "account": "acme",
+   "type": "renewal",
+   "summary": "Support contract renewal due September; no issues signalled.",
+   "quote": "Renewal of support contract due September. Priya signalled no issues.",
+   "raised": "2026-06-24",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-075"
+  },
+  {
+   "source": "2026-06-24_acme_quarterly_review",
+   "account": "acme",
+   "type": "commitment",
+   "summary": "Intro conversation on forecasting with Acme's COO has no owner.",
+   "quote": "Intro convo re: forecasting with Acme COO — ?",
+   "raised": "2026-06-24",
+   "due": "2026-07-08",
+   "owner": null,
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-076"
+  },
+  {
+   "source": "2026-06-26_loopmart_pricing_call",
+   "account": "loopmart",
+   "type": "budget",
+   "summary": "Ballpark 18-22k given for retail analytics dashboards (3 stores + Shopify).",
+   "quote": "gave ballpark 18–22k for retail analytics dashboards, phase-able",
+   "raised": "2026-06-26",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-077"
+  },
+  {
+   "source": "2026-06-30_finserve_intro_call",
+   "account": "finserve",
+   "type": "followup",
+   "summary": "Arjun is travelling; ping after 15 July. Credit scoring for thin-file customers, explainability critical.",
+   "quote": "arjun travelling first 2 wks of july, said ping him after 15th",
+   "raised": "2026-06-30",
+   "due": "2026-07-16",
+   "owner": "Karandeep",
+   "status": "scheduled",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-078"
+  },
+  {
+   "source": "2026-07-01_agrolink_budget_call",
+   "account": "agrolink",
+   "type": "budget",
+   "summary": "~35-40k approved this FY; Harpreet + CEO decide, no committee.",
+   "quote": "~35-40k approved for this FY",
+   "raised": "2026-07-01",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-079"
+  },
+  {
+   "source": "2026-07-01_agrolink_budget_call",
+   "account": "agrolink",
+   "type": "client_request",
+   "summary": "Proposal wanted before 10 July (today). Harpreet on leave from 14 July.",
+   "quote": "wants proposal before 10 July, he goes on leave 14th",
+   "raised": "2026-07-01",
+   "due": "2026-07-10",
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 37500,
+   "id": "sig-080"
+  },
+  {
+   "source": "2026-07-02_internal_pipeline_review",
+   "account": "novapharma",
+   "type": "handoff",
+   "summary": "Owner of the NovaPharma questionnaire unresolved in the pipeline review.",
+   "quote": "Who owns it? (Unresolved in meeting.)",
+   "raised": "2026-07-02",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-081"
+  },
+  {
+   "source": "2026-07-03_ridgeline_scribble",
+   "account": "ridgeline",
+   "type": "new_lead",
+   "summary": "Inbound call from Ridgeline Foods' ops head: wants a distributor portal like Sunrise's (~200 distributors). No contact details captured.",
+   "quote": "wants same thing, distributor ordering portal, ~200 distributors",
+   "raised": "2026-07-03",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-082"
+  },
+  {
+   "source": "2026-07-06_meridian_check",
+   "account": "meridian",
+   "type": "data_gap",
+   "summary": "Nobody knows whether Sanjay's questions were answered.",
+   "quote": "Nobody sure if we replied to Sanjay's proposal questions from 16 Jun.",
+   "raised": "2026-07-06",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-083"
+  },
+  {
+   "source": "2026-07-07_internal_prioritization",
+   "account": "healthfirst",
+   "type": "data_gap",
+   "summary": "Board date was found only by searching an inbox during the meeting.",
+   "quote": "Nobody had this date until Karandeep searched his inbox during the meeting.",
+   "raised": "2026-07-07",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-084"
+  },
+  {
+   "source": "2026-07-08_kaveri_demo_round2",
+   "account": "kaveri",
+   "type": "client_request",
+   "summary": "Revised 2-plant quote requested by 15 July; budget flexibility signalled.",
+   "quote": "Subbu asked for revised quote by 15 July.",
+   "raised": "2026-07-08",
+   "due": "2026-07-15",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 15000,
+   "id": "sig-085"
+  },
+  {
+   "source": "2026-07-09_greengrid_discovery",
+   "account": "greengrid",
+   "type": "commitment",
+   "summary": "Proposal due 17 July; Pranav to sanity-check SCADA API feasibility by 14 July.",
+   "quote": "Proposal — Jay — by 17 Jul",
+   "raised": "2026-07-09",
+   "due": "2026-07-17",
+   "owner": "Jay",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 22500,
+   "id": "sig-086"
+  },
+  {
+   "source": "2026-07-09_greengrid_discovery",
+   "account": "greengrid",
+   "type": "budget",
+   "summary": "20-25k comfortable for phase 1; board review in September drives timing.",
+   "quote": "Budget: Aditya indicated 20–25k comfortable for phase 1.",
+   "raised": "2026-07-09",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-087"
+  },
+  {
+   "source": "2026-07-08_novapharma_imessage",
+   "account": "novapharma",
+   "type": "client_request",
+   "summary": "Lisa (iMessage) wants an ETA today on the questionnaire and references.",
+   "quote": "Can you give me an ETA today so I can calm them down?",
+   "raised": "2026-07-08",
+   "due": "2026-07-08",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 80000,
+   "id": "sig-088"
+  },
+  {
+   "source": "2026-07-08_novapharma_imessage",
+   "account": "novapharma",
+   "type": "commitment",
+   "summary": "Bhavin replied he'd confirm an ETA by tomorrow (9 July). Not sent.",
+   "quote": "On it Lisa, will confirm ETA by tomorrow.",
+   "raised": "2026-07-08",
+   "due": "2026-07-09",
+   "owner": "Bhavin",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-089"
+  },
+  {
+   "source": "2026-07-09_ridgeline_whatsapp",
+   "account": "ridgeline",
+   "type": "new_lead",
+   "summary": "Prashant (Ridgeline Foods) resurfaced on WhatsApp with contact details; referral via Sunrise Foods.",
+   "quote": "My email is prashant.rao@ridgelinefoods.in",
+   "raised": "2026-07-09",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-090"
+  },
+  {
+   "source": "2026-07-09_ridgeline_whatsapp",
+   "account": "ridgeline",
+   "type": "client_request",
+   "summary": "MD wants an approach and rough budget before 25 July (annual IT plan).",
+   "quote": "Our MD wants to see an approach and rough budget before 25 July",
+   "raised": "2026-07-09",
+   "due": "2026-07-25",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-091"
+  },
+  {
+   "source": "2026-07-09_ridgeline_whatsapp",
+   "account": "ridgeline",
+   "type": "commitment",
+   "summary": "Karandeep replied he'd get back with next steps shortly. Nothing sent yet.",
+   "quote": "Will get back with next steps shortly.",
+   "raised": "2026-07-09",
+   "due": "2026-07-10",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-092"
+  },
+  {
+   "source": "2026-07-07_slack_advisory_referral",
+   "account": "kestrel",
+   "type": "new_lead",
+   "summary": "Slack referral from Gabriel: Kestrel Logistics (~600 trucks) wants route profitability dashboards + DWH. Not in CRM.",
+   "quote": "Kestrel Logistics (Pune, ~600 trucks) wants route-level profitability dashboards plus a data warehouse on top of their TMS.",
+   "raised": "2026-07-07",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-093"
+  },
+  {
+   "source": "2026-07-07_slack_advisory_referral",
+   "account": "kestrel",
+   "type": "commitment",
+   "summary": "Karandeep said he'd reach out to Ishaan this week. Not done.",
+   "quote": "Will ping him this week.",
+   "raised": "2026-07-07",
+   "due": "2026-07-10",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": null,
+   "id": "sig-094"
+  },
+  {
+   "source": "2026-07-09_trustline_readai_summary",
+   "account": "trustline",
+   "type": "status_signal",
+   "summary": "Annual license of $48k agreed verbally; target signature 20 July; kickoff 3 Aug.",
+   "quote": "Agreed annual license of 48,000 USD for year one, billed quarterly.",
+   "raised": "2026-07-09",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-095"
+  },
+  {
+   "source": "2026-07-09_trustline_readai_summary",
+   "account": "trustline",
+   "type": "commitment",
+   "summary": "Dhaval owes the quarterly billing schedule annex by 13 July; signature targeted 20 July.",
+   "quote": "Dhaval to send the quarterly billing schedule annex by 13 July.",
+   "raised": "2026-07-09",
+   "due": "2026-07-13",
+   "owner": "Dhaval",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 48000,
+   "id": "sig-096"
+  },
+  {
+   "source": "2026-07-10_karandeep_voice_memo",
+   "account": "voltenergy",
+   "type": "client_request",
+   "summary": "Marcus (WhatsApp call) needs the 3-year TCO by Tue 14 July; board pack goes out on the 15th.",
+   "quote": "he needs it by Tuesday the 14th because their board pack goes out on the 15th",
+   "raised": "2026-07-10",
+   "due": "2026-07-14",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 28000,
+   "id": "sig-097"
+  },
+  {
+   "source": "2026-07-10_karandeep_voice_memo",
+   "account": "voltenergy",
+   "type": "competitor",
+   "summary": "Tableau consultancy about 10% cheaper: still in the race.",
+   "quote": "the Tableau consultancy came in about ten percent cheaper, so we're still in the race",
+   "raised": "2026-07-10",
+   "due": null,
+   "owner": null,
+   "status": "info",
+   "waiting_on": null,
+   "value_usd": null,
+   "id": "sig-098"
+  },
+  {
+   "source": "2026-07-10_karandeep_voice_memo",
+   "account": "loopmart",
+   "type": "client_request",
+   "summary": "Sania is fine with ~20k if phased; wants a written proposal by end of July.",
+   "quote": "she wants a written proposal by end of July",
+   "raised": "2026-07-10",
+   "due": "2026-07-31",
+   "owner": "Karandeep",
+   "status": "open",
+   "waiting_on": "us",
+   "value_usd": 20000,
+   "id": "sig-099"
+  }
+ ],
+ "accounts": {
+  "acme": {
+   "company": "Acme Retail Group",
+   "leads": [
+    "L-1001"
+   ],
+   "relationship": "client",
+   "competition": "favoured"
+  },
+  "finserve": {
+   "company": "FinServe Capital",
+   "leads": [
+    "L-1002"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "meridian": {
+   "company": "Meridian Healthcare",
+   "leads": [
+    "L-1003",
+    "L-1027"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "globalmart": {
+   "company": "GlobalMart",
+   "leads": [
+    "L-1004",
+    "L-1040"
+   ],
+   "relationship": "conference",
+   "competition": "none_known"
+  },
+  "northwind": {
+   "company": "Northwind Logistics",
+   "leads": [
+    "L-1005"
+   ],
+   "relationship": "client",
+   "competition": "favoured"
+  },
+  "blueorchid": {
+   "company": "BlueOrchid Hotels",
+   "leads": [
+    "L-1006"
+   ],
+   "relationship": "conference",
+   "competition": "none_known"
+  },
+  "kaveri": {
+   "company": "Kaveri Textiles",
+   "leads": [
+    "L-1007"
+   ],
+   "relationship": "cold",
+   "competition": "favoured"
+  },
+  "zenlytics": {
+   "company": "Zenlytics",
+   "leads": [
+    "L-1008"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "healthfirst": {
+   "company": "HealthFirst Clinics",
+   "leads": [
+    "L-1009"
+   ],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "eduspark": {
+   "company": "EduSpark",
+   "leads": [
+    "L-1010"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "agrolink": {
+   "company": "AgroLink",
+   "leads": [
+    "L-1011"
+   ],
+   "relationship": "conference",
+   "competition": "favoured"
+  },
+  "urbannest": {
+   "company": "UrbanNest Realty",
+   "leads": [
+    "L-1012"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "paytrack": {
+   "company": "PayTrack",
+   "leads": [
+    "L-1013"
+   ],
+   "relationship": "client",
+   "competition": "favoured"
+  },
+  "voltenergy": {
+   "company": "VoltEnergy",
+   "leads": [
+    "L-1014"
+   ],
+   "relationship": "inbound",
+   "competition": "comparable"
+  },
+  "clearpath": {
+   "company": "ClearPath Insurance",
+   "leads": [
+    "L-1015"
+   ],
+   "relationship": "cold",
+   "competition": "favoured"
+  },
+  "medtrack": {
+   "company": "MedTrack Labs",
+   "leads": [
+    "L-1016"
+   ],
+   "relationship": "conference",
+   "competition": "none_known"
+  },
+  "shopswift": {
+   "company": "ShopSwift",
+   "leads": [
+    "L-1017"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "datanest": {
+   "company": "DataNest",
+   "leads": [
+    "L-1018"
+   ],
+   "relationship": "client",
+   "competition": "favoured"
+  },
+  "freshcart": {
+   "company": "FreshCart",
+   "leads": [
+    "L-1020"
+   ],
+   "relationship": "referral",
+   "competition": "comparable"
+  },
+  "steelcore": {
+   "company": "SteelCore Industries",
+   "leads": [
+    "L-1021"
+   ],
+   "relationship": "cold",
+   "competition": "much_lower"
+  },
+  "finedge": {
+   "company": "FinEdge Bank",
+   "leads": [
+    "L-1023"
+   ],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "cloudnine": {
+   "company": "CloudNine SaaS",
+   "leads": [
+    "L-1025"
+   ],
+   "relationship": "inbound",
+   "competition": "comparable"
+  },
+  "sunrise": {
+   "company": "Sunrise Foods",
+   "leads": [
+    "L-1026"
+   ],
+   "relationship": "client",
+   "competition": "favoured"
+  },
+  "apexauto": {
+   "company": "ApexAuto Parts",
+   "leads": [
+    "L-1028"
+   ],
+   "relationship": "cold",
+   "competition": "none_known"
+  },
+  "novapharma": {
+   "company": "NovaPharma",
+   "leads": [
+    "L-1029"
+   ],
+   "relationship": "inbound",
+   "competition": "favoured"
+  },
+  "greengrid": {
+   "company": "GreenGrid Solar",
+   "leads": [
+    "L-1030"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "bytebridge": {
+   "company": "ByteBridge",
+   "leads": [
+    "L-1031"
+   ],
+   "relationship": "referral",
+   "competition": "comparable"
+  },
+  "trustline": {
+   "company": "Trustline NBFC",
+   "leads": [
+    "L-1032"
+   ],
+   "relationship": "conference",
+   "competition": "favoured"
+  },
+  "oceanfreight": {
+   "company": "OceanFreight",
+   "leads": [
+    "L-1033"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "smartserve": {
+   "company": "SmartServe Hospitality",
+   "leads": [
+    "L-1034"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "quantia": {
+   "company": "Quantia Analytics",
+   "leads": [
+    "L-1035"
+   ],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "loopmart": {
+   "company": "LoopMart",
+   "leads": [
+    "L-1036"
+   ],
+   "relationship": "conference",
+   "competition": "none_known"
+  },
+  "vertex": {
+   "company": "Vertex Constructions",
+   "leads": [
+    "L-1037"
+   ],
+   "relationship": "cold",
+   "competition": "none_known"
+  },
+  "mirahealth": {
+   "company": "MiraHealth",
+   "leads": [
+    "L-1038"
+   ],
+   "relationship": "inbound",
+   "competition": "none_known"
+  },
+  "citywide": {
+   "company": "Citywide Diagnostics",
+   "leads": [
+    "L-1039"
+   ],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "harborfinch": {
+   "company": "Harbor & Finch Advisory",
+   "leads": [],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "lumino": {
+   "company": "Lumino Fitness",
+   "leads": [],
+   "relationship": "conference",
+   "competition": "none_known"
+  },
+  "pixelworks": {
+   "company": "PixelWorks Agency",
+   "leads": [],
+   "relationship": "partner",
+   "competition": "none_known"
+  },
+  "nimbus": {
+   "company": "Nimbus Lending",
+   "leads": [],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "ridgeline": {
+   "company": "Ridgeline Foods",
+   "leads": [],
+   "relationship": "referral",
+   "competition": "none_known"
+  },
+  "kestrel": {
+   "company": "Kestrel Logistics",
+   "leads": [],
+   "relationship": "referral",
+   "competition": "favoured"
+  },
+  "techsummit": {
+   "company": "TechSummit Mumbai (unprocessed cards)",
+   "leads": [],
+   "relationship": "conference",
+   "competition": "none_known"
+  }
+ },
+ "competition_evidence": {
+  "voltenergy": [
+   "2026-07-10_karandeep_voice_memo",
+   "the Tableau consultancy came in about ten percent cheaper, so we're still in the race"
+  ],
+  "freshcart": [
+   "2026-05-18_freshcart_referral_followup",
+   "We're now in conversations with two other vendors and want to decide by mid-July."
+  ],
+  "cloudnine": [
+   "2026-06-21_cloudnine_rates_references",
+   "We're comparing you with one other vendor and want to close this out by mid-July."
+  ],
+  "bytebridge": [
+   "2026-05-10_bytebridge_competitor",
+   "I'd still prefer to work with a referred partner"
+  ],
+  "steelcore": [
+   "2026-02-05_steelcore_pricing_objection",
+   "A local freelancer has quoted us less than a third of this"
+  ],
+  "clearpath": [
+   "2026-06-09_clearpath_budget_unfrozen",
+   "Your proposal was the strongest of the three we saw."
+  ],
+  "kaveri": [
+   "2026-06-23_kaveri_vendor_failed",
+   "Lesson learnt about buying on price."
+  ],
+  "novapharma": [
+   "2026-06-25_novapharma_stakeholders",
+   "On our side the science team is sold"
+  ],
+  "kestrel": [
+   "2026-07-07_slack_advisory_referral",
+   "They are also talking to one of the big 4 consultancies but think it's overkill."
+  ],
+  "agrolink": [
+   "2026-07-01_agrolink_budget_call",
+   "decision: him + their CEO, no committee"
+  ],
+  "trustline": [
+   "2026-07-03_trustline_approved",
+   "the loan document automation project is approved"
+  ]
+ },
+ "proposals": [
+  {
+   "lead_id": "L-1007",
+   "field": "status",
+   "to": "Contacted",
+   "reason": "Lost deal reopened by the client; round-2 demo held 8 Jul.",
+   "source": "2026-06-23_kaveri_vendor_failed",
+   "quote": "Is your quote from November still valid? We'd want to move quickly this time.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1015",
+   "field": "status",
+   "to": "Contacted",
+   "reason": "Client came back: budget freeze lifted, project back on Q3 roadmap.",
+   "source": "2026-06-09_clearpath_budget_unfrozen",
+   "quote": "The freeze lifted with the new financial year and the project is back on our roadmap for Q3.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1003",
+   "field": "status",
+   "to": "Proposal Sent",
+   "reason": "Client is asking questions about AtliQ's proposal.",
+   "source": "2026-06-16_meridian_proposal_questions",
+   "quote": "Thanks for the proposal. It looks solid overall.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1017",
+   "field": "status",
+   "to": "Proposal Sent",
+   "reason": "Budget approved; client requested an SOW (closest CRM stage).",
+   "source": "2026-06-29_shopswift_budget_confirmed",
+   "quote": "What I need from you: a statement of work by 15 July",
+   "confidence": "medium"
+  },
+  {
+   "lead_id": "L-1011",
+   "field": "status",
+   "to": "Contacted",
+   "reason": "Status blank, but a budget call was held on 1 Jul.",
+   "source": "2026-07-01_agrolink_budget_call",
+   "quote": "finally connected after techsummit (2.5 weeks!)",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1030",
+   "field": "status",
+   "to": "Contacted",
+   "reason": "Discovery call held 9 Jul.",
+   "source": "2026-07-09_greengrid_discovery",
+   "quote": "Want: generation vs. forecast, inverter uptime, soiling loss tracking, one view across farms.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1036",
+   "field": "status",
+   "to": "Contacted",
+   "reason": "Pricing call held 26 Jun.",
+   "source": "2026-06-26_loopmart_pricing_call",
+   "quote": "gave ballpark 18–22k for retail analytics dashboards, phase-able",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1006",
+   "field": "status",
+   "to": "Contacted",
+   "reason": "Follow-up call held 19 Jun.",
+   "source": "2026-06-19_blueorchid_call",
+   "quote": "wants sentiment + theme dashboards, maybe alerts for bad reviews",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1032",
+   "field": "notes",
+   "to": "Board approved 3 Jul on annual-license framing. $48k/yr agreed 9 Jul; signature targeted 20 Jul; kickoff 3 Aug. Keep 'Proposal Sent' until signed.",
+   "reason": "Approved verbally but unsigned: the status changes to Won only on signature.",
+   "source": "2026-07-09_trustline_readai_summary",
+   "quote": "target signature by 20 July",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1032",
+   "field": "est_value_usd",
+   "to": 48000,
+   "reason": "Agreed annual license value.",
+   "source": "2026-07-09_trustline_readai_summary",
+   "quote": "Agreed annual license of 48,000 USD for year one, billed quarterly.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1011",
+   "field": "est_value_usd",
+   "to": 37500,
+   "reason": "Midpoint of the budget the client revealed (35-40k).",
+   "source": "2026-07-01_agrolink_budget_call",
+   "quote": "~35-40k approved for this FY",
+   "confidence": "medium"
+  },
+  {
+   "lead_id": "L-1030",
+   "field": "est_value_usd",
+   "to": 22500,
+   "reason": "Midpoint of 20-25k phase-1 budget.",
+   "source": "2026-07-09_greengrid_discovery",
+   "quote": "Budget: Aditya indicated 20–25k comfortable for phase 1.",
+   "confidence": "medium"
+  },
+  {
+   "lead_id": "L-1036",
+   "field": "est_value_usd",
+   "to": 20000,
+   "reason": "Client fine with ~20k if phased.",
+   "source": "2026-07-10_karandeep_voice_memo",
+   "quote": "they are fine with around twenty thousand if we phase it",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1017",
+   "field": "est_value_usd",
+   "to": 55000,
+   "reason": "Budget formally approved at 55k (matches CRM).",
+   "source": "2026-06-29_shopswift_budget_confirmed",
+   "quote": "leadership has formally approved 55k for the recommendation engine this fiscal year",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1007",
+   "field": "est_value_usd",
+   "to": 15000,
+   "reason": "Keep last quote as floor; scope grew to 2 plants, re-quote due 15 Jul.",
+   "source": "2026-07-08_kaveri_demo_round2",
+   "quote": "Scope grew since Nov: they've added a second unit, want both plants in one view.",
+   "confidence": "low"
+  },
+  {
+   "lead_id": "L-1034",
+   "field": "est_value_usd",
+   "to": 25000,
+   "reason": "Budget stated in intro call.",
+   "source": "2026-04-05_smartserve_intro_call",
+   "quote": "Pooja estimated 25k budget \"if the scope is right\".",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1033",
+   "field": "owner",
+   "to": "Jay",
+   "reason": "Jay is running the 14 Jul call.",
+   "source": "2026-06-28_oceanfreight_timezones",
+   "quote": "14 July 8:00 CET / 11:30 IST confirmed — invite sent.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1039",
+   "field": "owner",
+   "to": "Karandeep",
+   "reason": "Karandeep booked and is taking the 13 Jul call.",
+   "source": "2026-07-06_citywide_referral",
+   "quote": "How about Monday 13 July, 11am?",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1010",
+   "field": "owner",
+   "to": "Jay",
+   "reason": "Client wrote to Jay directly.",
+   "source": "2026-07-08_eduspark_website_enquiry",
+   "quote": "found your email via LinkedIn, hope you don't mind the direct note",
+   "confidence": "medium"
+  },
+  {
+   "lead_id": "L-1016",
+   "field": "service_interest",
+   "to": "Power BI Dashboards",
+   "reason": "Lab ops dashboards (possibly LIMS integration); confirm with client.",
+   "source": "2026-06-13_medtrack_scribble",
+   "quote": "lab ops dashboards? or was it LIMS integration. both?",
+   "confidence": "low"
+  },
+  {
+   "lead_id": "L-1006",
+   "field": "service_interest",
+   "to": "AI/ML Solutions",
+   "reason": "Review sentiment + theme dashboards.",
+   "source": "2026-06-19_blueorchid_call",
+   "quote": "wants sentiment + theme dashboards, maybe alerts for bad reviews",
+   "confidence": "medium"
+  },
+  {
+   "lead_id": "L-1038",
+   "field": "notes",
+   "to": "2nd call 6 Jul: scope UK ops first (not India). ~35k confirmed verbally. CTO ex-NHS: needs clinical safety docs.",
+   "reason": "Dhaval asked Jay to log this; never done.",
+   "source": "2026-07-07_mirahealth_quick_summary",
+   "quote": "They want the triage assistant scoped for UK ops first, not India. Budget ~35k confirmed verbally.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1010",
+   "field": "notes",
+   "to": "Admissions season Aug-Sep (10x queries); budget window closes mid-Aug. Decision-maker: Prof. Meenakshi Iyer (Dean of Digital Learning).",
+   "reason": "Clarified need, timing and decision-maker.",
+   "source": "2026-07-08_eduspark_website_enquiry",
+   "quote": "our budget window closes mid-August",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1018",
+   "field": "notes",
+   "to": "Renewal due end Sep (client wants early). Series A raised; wants 3rd engineer (Kafka). Call proposed 8 Jul: outcome not logged.",
+   "reason": "Renewal + expansion signals.",
+   "source": "2026-06-30_datanest_renewal",
+   "quote": "We've raised a Series A and want to add a third engineer, ideally someone strong on Kafka.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1023",
+   "field": "notes",
+   "to": "Compliance cleared 19 Jun. Client asked to schedule the commercial call (wk of 29 Jun): not confirmed. Largest data initiative for them this year.",
+   "reason": "Stage moved; CRM still reflects March.",
+   "source": "2026-03-26_finedge_compliance_docs",
+   "quote": "This is our largest data initiative this year, so let's not lose momentum.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1029",
+   "field": "notes",
+   "to": "Stakeholders: Rajesh Patel (IT security), Emma Stone (procurement). 78-question security questionnaire due 24 Jul; 3 healthcare refs needed; all wrapped by end Jul.",
+   "reason": "Gating items for an 80k deal.",
+   "source": "2026-06-30_novapharma_security_questionnaire",
+   "quote": "We need the completed document back by 24 July to keep the procurement timeline.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1001",
+   "field": "notes",
+   "to": "QBR 24 Jun: 40+ WAU. Asks: automate monthly board pack (~5 person-days/mo). New opp: seasonal inventory forecasting (intro with COO). Support renewal Sept. Referred FreshCart.",
+   "reason": "Two cross-sells and a renewal not logged.",
+   "source": "2026-06-24_acme_quarterly_review",
+   "quote": "Pain point raised (again): monthly board pack is assembled manually from dashboard screenshots.",
+   "confidence": "high"
+  },
+  {
+   "lead_id": "L-1006",
+   "field": "contact_email",
+   "to": "",
+   "reason": "Email still missing: it's on a business card. Ask Jay to add it.",
+   "source": "2026-06-19_blueorchid_call",
+   "quote": "need her email first, it's on her card",
+   "confidence": "low"
+  }
+ ],
+ "new_leads": [
+  {
+   "account": "harborfinch",
+   "company": "Harbor & Finch Advisory",
+   "contact_name": "David Harbor",
+   "contact_email": "david@harborfinch.com",
+   "source": "Referral",
+   "service_interest": "Power BI Dashboards",
+   "owner": "Bhavin",
+   "notes": "Referred by Suresh Menon (FinEdge). ~120 manual client reports/quarter; wants reporting automation.",
+   "evidence_source": "2026-06-27_harborfinch_referral_intro",
+   "quote": "We produce ~120 client reports a quarter, all manual."
+  },
+  {
+   "account": "lumino",
+   "company": "Lumino Fitness",
+   "contact_name": "Carlos Mendes",
+   "contact_email": "carlos@luminofitness.com",
+   "source": "Conference",
+   "service_interest": "AI/ML Solutions",
+   "owner": "Jay",
+   "notes": "TechSummit Mumbai. Wants member-churn prediction case study; budgeting next quarter.",
+   "evidence_source": "2026-06-20_lumino_fitness_case_study",
+   "quote": "we're budgeting for next quarter right now"
+  },
+  {
+   "account": "pixelworks",
+   "company": "PixelWorks Agency",
+   "contact_name": "Tara Bose",
+   "contact_email": "tara@pixelworks.agency",
+   "source": "Website",
+   "service_interest": "Partnership (white-label)",
+   "owner": "",
+   "notes": "30-person design agency seeking standing white-label partner for dashboards + AI features; 3-4 projects/quarter.",
+   "evidence_source": "2026-06-29_pixelworks_partnership",
+   "quote": "Potentially 3–4 projects a quarter."
+  },
+  {
+   "account": "nimbus",
+   "company": "Nimbus Lending",
+   "contact_name": "Rhea Sharma",
+   "contact_email": "rhea@nimbuslending.in",
+   "source": "Referral",
+   "service_interest": "AI/ML Solutions",
+   "owner": "Bhavin",
+   "notes": "Referred by Shreya Iyer (PayTrack). ~4,000 loan applications/month, manual review. Budget talks week of 20 Jul.",
+   "evidence_source": "2026-07-05_nimbus_lending_intro",
+   "quote": "we process ~4,000 loan applications a month, all manually reviewed"
+  },
+  {
+   "account": "ridgeline",
+   "company": "Ridgeline Foods",
+   "contact_name": "Prashant Rao",
+   "contact_email": "prashant.rao@ridgelinefoods.in",
+   "source": "Referral",
+   "service_interest": "Custom Web App",
+   "owner": "Karandeep",
+   "notes": "Heard of us via Sunrise Foods. Distributor ordering portal, ~200 distributors (KA + KL). Approach + budget before 25 Jul.",
+   "evidence_source": "2026-07-09_ridgeline_whatsapp",
+   "quote": "My email is prashant.rao@ridgelinefoods.in"
+  },
+  {
+   "account": "kestrel",
+   "company": "Kestrel Logistics",
+   "contact_name": "Ishaan Verma",
+   "contact_email": "ishaan@kestrellogistics.in",
+   "source": "Referral",
+   "service_interest": "Data Engineering",
+   "owner": "Karandeep",
+   "notes": "Slack referral from Gabriel Ortiz. ~600 trucks; route profitability dashboards + DWH on TMS. Also talking to a Big 4 firm.",
+   "evidence_source": "2026-07-07_slack_advisory_referral",
+   "quote": "Kestrel Logistics (Pune, ~600 trucks) wants route-level profitability dashboards plus a data warehouse on top of their TMS."
+  }
+ ],
+ "opportunities": [
+  {
+   "account": "acme",
+   "lead_id": "L-1001",
+   "title": "Board-pack report automation",
+   "service": "Power BI Dashboards",
+   "source": "2026-06-18_acme_retail_monthly_reports",
+   "quote": "Our analysts still spend the first week of every month manually assembling the board reporting pack from the dashboards."
+  },
+  {
+   "account": "acme",
+   "lead_id": "L-1001",
+   "title": "Seasonal inventory forecasting",
+   "service": "AI/ML Solutions",
+   "source": "2026-06-24_acme_quarterly_review",
+   "quote": "Vikas mentioned ops side struggles with seasonal inventory forecasting"
+  },
+  {
+   "account": "northwind",
+   "lead_id": "L-1005",
+   "title": "Power BI dashboard layer on existing pipeline",
+   "service": "Power BI Dashboards",
+   "source": "2026-06-11_northwind_crosssell",
+   "quote": "Does AtliQ also do the dashboard layer on top?"
+  },
+  {
+   "account": "sunrise",
+   "lead_id": "L-1026",
+   "title": "Distributor portal v2 (order reconciliation)",
+   "service": "Custom Web App",
+   "source": "2026-06-10_sunrise_foods_reactivation",
+   "quote": "would AtliQ want to do a v2?"
+  },
+  {
+   "account": "sunrise",
+   "lead_id": "L-1026",
+   "title": "Sales dashboard on portal data",
+   "service": "Power BI Dashboards",
+   "source": "2026-06-10_sunrise_foods_reactivation",
+   "quote": "our CFO keeps asking if the portal data can feed into some kind of sales dashboard"
+  },
+  {
+   "account": "globalmart",
+   "lead_id": "L-1004",
+   "title": "Demand forecasting (supply chain)",
+   "service": "AI/ML Solutions",
+   "source": "2026-06-24_globalmart_pricing",
+   "quote": "my colleague in supply chain asked whether you do demand forecasting. Do you?"
+  },
+  {
+   "account": "paytrack",
+   "lead_id": "L-1013",
+   "title": "Merchant-risk scoring module",
+   "service": "AI/ML Solutions",
+   "source": "2026-07-02_paytrack_phase2",
+   "quote": "the ops team wants the same scoring applied to merchant onboarding, not just transactions"
+  },
+  {
+   "account": "datanest",
+   "lead_id": "L-1018",
+   "title": "Third engineer (Kafka) + early renewal",
+   "service": "Staff Augmentation",
+   "source": "2026-06-30_datanest_renewal",
+   "quote": "want to add a third engineer, ideally someone strong on Kafka"
+  }
+ ],
+ "meta": {
+  "today": "2026-07-10",
+  "generator": "seed: Claude via Claude Code, same schema as /api/extract"
+ }
+}

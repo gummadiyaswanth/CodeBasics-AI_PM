@@ -1,0 +1,122 @@
+{
+ "finedge": {
+  "channel": "email",
+  "to": "suresh.menon@finedge.com",
+  "subject": "FinEdge data platform: confirming the commercial discussion",
+  "body": "Hi Suresh,\n\nThank you for the news that compliance has cleared AtliQ, and apologies that I never confirmed a slot for the week of 29 June. That one is on me, and I don't want it to cost us the momentum you mentioned.\n\nFor the commercial discussion I can do any of these: [Bhavin: add 2-3 slots]. If your assistant has already proposed times, send them over and I'll take the first that works.\n\nAnd thank you for introducing David at Harbor & Finch.\n\nBhavin"
+ },
+ "novapharma": {
+  "channel": "imessage",
+  "to": "Dr. Lisa Wong",
+  "subject": null,
+  "body": "Hi Lisa, sorry for the silence. ETA: first-pass security questionnaire to Rajesh by [Pranav to confirm a date before 24 Jul], and the three healthcare/pharma references to Emma by [Bhavin: date]. I'll update you the moment either goes out. Bhavin"
+ },
+ "freshcart": {
+  "channel": "email",
+  "to": "ananya@freshcart.in",
+  "subject": "FreshCart customer portal: can we talk this week?",
+  "body": "Hi Ananya,\n\nI owe you an apology. I promised you a call in May, didn't make it, and you had to chase. Thank you for keeping AtliQ in the mix anyway.\n\nI know you're deciding by mid-July. Could we take 30 minutes on [Dhaval: day/time] to walk through the customer account portal (orders, subscriptions, wallet) across your three cities? I'll come with questions so we use your time well.\n\nDhaval"
+ },
+ "agrolink": {
+  "channel": "email",
+  "to": "harpreet@agrolink.in",
+  "subject": "AgroLink: your data project proposal",
+  "body": "Hi Harpreet,\n\nA quick update on the proposal for the mandi price data pipelines and price alerts for your trader network. [Dhaval: attach the proposal, or give a firm date that lands before your leave on 14 July.]\n\nIf it helps your CEO, I can walk you both through it in 30 minutes before you go.\n\nDhaval"
+ },
+ "cloudnine": {
+  "channel": "email",
+  "to": "dev@cloudnine.io",
+  "subject": "References for senior backend and DevOps profiles",
+  "body": "Hi Dev,\n\nApologies for the delay on the references. Here are two SaaS clients where our engineers embedded into an existing team. Both have agreed to take a call:\n\n1. [Karandeep: name, company, email, confirmed with them. Candidate from your history: Sameer Kulkarni at DataNest, who wrote that both engineers \"have been excellent\".]\n2. [Karandeep: second reference]\n\nSince you're closing by mid-July, I'm happy to set up both calls this week.\n\nKarandeep"
+ },
+ "globalmart": {
+  "channel": "email",
+  "to": "neha.shah@globalmart.com",
+  "subject": "Vendor portal: phasing, and your forecasting question",
+  "body": "Hi Neha,\n\nApologies. I promised you an answer on phasing by last Friday. Our recommendation: [Karandeep: choose (a) trim the analytics module to Phase 2 at [amount], or (b) full scope at [amount]].\n\nOn your supply-chain colleague's question about demand forecasting: [Karandeep to confirm the answer and who should run that conversation].\n\nKarandeep"
+ },
+ "harborfinch": {
+  "channel": "email",
+  "to": "david@harborfinch.com",
+  "subject": "AtliQ <> Harbor & Finch: finding a time",
+  "body": "Hi David,\n\nThank you, and Suresh, for the introduction, and apologies for the slow reply. Automating around 120 client reports a quarter is very much our kind of problem.\n\nWould [Bhavin: slot 1] or [slot 2] work for a 30-minute call? Send me a couple of example reports beforehand if you can, and we'll come prepared.\n\nBhavin"
+ },
+ "shopswift": {
+  "channel": "email",
+  "to": "elena@shopswift.com",
+  "subject": "ShopSwift recommendation engine: SOW timing",
+  "body": "Hi Elena,\n\nCongratulations on getting the 55k approved. You'll have the statement of work for the recommendation engine by [Bhavin: date on or before 15 July], in time for procurement before your quarter closes.\n\nIf procurement needs a particular template or clauses, send them over and we'll write the SOW to fit.\n\nBhavin"
+ },
+ "voltenergy": {
+  "channel": "whatsapp",
+  "to": "Marcus Chen",
+  "subject": null,
+  "body": "Hi Marcus, confirming you'll have the 3-year TCO comparison (Power BI vs Tableau) by Tuesday 14 July, ahead of your board pack on the 15th. [Karandeep: time of day]. Karandeep"
+ },
+ "healthfirst": {
+  "channel": "email",
+  "to": "anita.rao@healthfirst.in",
+  "subject": "HealthFirst patient portal: ahead of your board on 14 July",
+  "body": "Hi Anita,\n\nGood luck with the board on 14 July. Is there anything that would help you champion the portal: a one-page summary of the phased plan (Phase 1 at 18k, Phase 2 at 12k), or someone from our side on standby for questions on the day?\n\nAnd thank you for introducing Rakesh at Citywide Diagnostics. We're speaking on Monday.\n\nKarandeep"
+ },
+ "meridian": {
+  "channel": "email",
+  "to": "sanjay.k@meridianhealth.com",
+  "subject": "Clinical Data Platform: answers to your IT director's questions",
+  "body": "Dear Sanjay,\n\nApologies for the delay in answering your IT director's two questions.\n\n1. HL7 feeds from your older lab systems: [Pranav to confirm whether the ingestion layer supports HL7 v2 alongside FHIR].\n2. Clinician UAT: [Bhavin to confirm whether UAT is inside the 14 weeks or added on top].\n\nI know you'd like to close before your budget review in mid-July. I'm glad to take a 20-minute call with your IT director this week if that's quicker. And since you met Jay at TechSummit too: I'm your single point of contact at AtliQ.\n\nBhavin"
+ },
+ "sunrise": {
+  "channel": "email",
+  "to": "meera@sunrisefoods.in",
+  "subject": "Distributor portal v2",
+  "body": "Hi Meera,\n\nI said I'd set up a call when I was back, and I didn't. Sorry about that. Growing from 40 to 110 distributors is a great problem to have, and we'd love to do the v2, starting with order reconciliation.\n\nCould we do 45 minutes on [Dhaval: slot]? I'd like to cover the portal fixes and your CFO's idea of a sales dashboard on the portal data in the same conversation.\n\nDhaval"
+ },
+ "northwind": {
+  "channel": "email",
+  "to": "tbeckett@northwindlog.com",
+  "subject": "Dashboard concepts for your freight margin data",
+  "body": "Hi Tom,\n\nThanks again for the kind words on the pipeline. I promised you sample dashboard concepts and they're late. [Dhaval/Pranav: attach 2-3 concepts built on the freight margin numbers].\n\nSince your clean warehouse is already in place, this should be a small, fast project. Happy to walk your CEO through them.\n\nDhaval"
+ },
+ "acme": {
+  "channel": "email",
+  "to": "priya.raman@acmeretail.com",
+  "subject": "Board-pack automation scope, and forecasting",
+  "body": "Hi Priya,\n\nApologies that the scope note on automating your monthly board pack slipped. [Ayush: attach scope note, or date].\n\nOn the seasonal inventory forecasting challenge Vikas raised: would you be open to introducing us to your COO for a separate conversation?\n\nAnd thank you again for the FreshCart introduction.\n\nDhaval"
+ },
+ "kestrel": {
+  "channel": "email",
+  "to": "ishaan@kestrellogistics.in",
+  "subject": "Introduction via Gabriel: route profitability dashboards",
+  "body": "Hi Ishaan,\n\nGabriel Ortiz suggested we speak. He mentioned you're looking at route-level profitability dashboards and a data warehouse on top of your TMS for the fleet.\n\nThat's the kind of work we do at AtliQ, and we can scope it without a big-consultancy footprint. Would [Karandeep: slot] work for a 30-minute call?\n\nKarandeep"
+ },
+ "ridgeline": {
+  "channel": "whatsapp",
+  "to": "Prashant Rao",
+  "subject": null,
+  "body": "Hi Prashant, thanks for your patience. Next step: a 30-minute call on [Karandeep: slot] to understand your 200-distributor ordering flow. We'll send an approach and a rough budget before your 25 July deadline. Karandeep"
+ },
+ "clearpath": {
+  "channel": "email",
+  "to": "deepa.nair@clearpathins.com",
+  "subject": "Claims data warehouse: picking up where we left off",
+  "body": "Hi Deepa,\n\nYes, AtliQ is very much still interested, and it's good to hear the claims data warehouse is back on the Q3 roadmap. Apologies for the slow reply.\n\nOn the 40k estimate: [Dhaval to confirm whether it still holds, or what changed in scope]. Could we take 30 minutes on [slot] to refresh the requirements?\n\nDhaval"
+ },
+ "nimbus": {
+  "channel": "email",
+  "to": "rhea@nimbuslending.in",
+  "subject": "AtliQ <> Nimbus Lending",
+  "body": "Hi Rhea,\n\nThank you, and Shreya, for the introduction. Manually reviewing ~4,000 loan applications a month is exactly the kind of document-heavy underwriting problem we've worked on.\n\nWould [Bhavin: slot before 17 July] work for a call, ahead of your budget conversations the week of 20 July?\n\nBhavin"
+ },
+ "zenlytics": {
+  "channel": "email",
+  "to": "maya@zenlytics.io",
+  "subject": "Staff augmentation: rescheduling our intro call",
+  "body": "Hi Maya,\n\nI owe you an apology. I confirmed Wednesday 3pm and never sent the invite. If you're still looking for 2 data engineers with dbt + Snowflake for an August start, could we try [Bhavin: two slots, 2-5pm IST]? The invite will come from me straight after.\n\nBhavin"
+ },
+ "kaveri": {
+  "channel": "email",
+  "to": "subbu@kaveritextiles.in",
+  "subject": "Revised quote: two-plant dashboard",
+  "body": "Mr. Subramaniam,\n\nThank you for the time on 8 July. The revised quote for the two-plant scope will be with you by [Jay: date on or before 15 July], including the Tally and Access data extraction work Senthil described.\n\nJay"
+ }
+}

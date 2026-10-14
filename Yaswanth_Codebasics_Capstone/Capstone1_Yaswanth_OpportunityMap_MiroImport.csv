@@ -1,0 +1,105 @@
+Frame,Step,Row,Text
+Process board,Step 1: Lead arrives,Input,"Referral, LinkedIn, conference card, website form, existing client, partner Slack"
+Process board,Step 1: Lead arrives,Actions by human (today),Founder reads it on phone between meetings; intends to reply later
+Process board,Step 1: Lead arrives,Digital tools in use,"Email, WhatsApp, iMessage, LinkedIn, Slack Connect, business cards in a drawer"
+Process board,Step 1: Lead arrives,Pain points (today),"Never logged: Harbor & Finch, Lumino, PixelWorks, Nimbus not in CRM; TechSummit 15 cards, 4 entered"
+Process board,Step 1: Lead arrives,AI opportunity (33A card),Extract new-lead signal from any channel; propose CRM record with quote
+Process board,Step 1: Lead arrives,With Recall: human,Founder forwards or just replies as usual; Recall files the lead
+Process board,Step 1: Lead arrives,Dot votes,3
+Process board,Step 2: First conversation,Input,"Call or chat, often on the fly (commute, walking)"
+Process board,Step 2: First conversation,Actions by human (today),Takes call on WhatsApp / RingCentral / FaceTime; keeps notes in head
+Process board,Step 2: First conversation,Digital tools in use,Phone; read.ai only on Teams
+Process board,Step 2: First conversation,Pain points (today),Context lost: Ridgeline caller left no contact; MiraHealth call details never logged
+Process board,Step 2: First conversation,AI opportunity (33A card),"Voice memo after call → transcript → extraction of asks, budget, decision-maker, dates"
+Process board,Step 2: First conversation,With Recall: human,Dictates a 30-second voice memo after the call
+Process board,Step 2: First conversation,Dot votes,3
+Process board,Step 3: Log in CRM,Input,"Notes, forwarded emails"
+Process board,Step 3: Log in CRM,Actions by human (today),Updates Kaizen at night or delegates to Jay/Ayush; often skipped
+Process board,Step 3: Log in CRM,Digital tools in use,Kaizen CRM (manual entry)
+Process board,Step 3: Log in CRM,Pain points (today),40/40 next_followup empty; stale statuses; Meridian entered twice by two owners
+Process board,Step 3: Log in CRM,AI opportunity (33A card),Propose field-level updates with evidence; dedupe; derive dates by rule; human approves
+Process board,Step 3: Log in CRM,With Recall: human,Reviews suggested updates in one screen; taps approve
+Process board,Step 3: Log in CRM,Dot votes,5
+Process board,Step 4: Follow up & answer asks,Input,"Client questions, our promises"
+Process board,Step 4: Follow up & answer asks,Actions by human (today),Remembers (or not) to reply; 'will revert in a day or two'
+Process board,Step 4: Follow up & answer asks,Digital tools in use,"Inbox, memory"
+Process board,Step 4: Follow up & answer asks,Pain points (today),33 accounts waiting on AtliQ; FinEdge $95k waited 21 days; FreshCart referral chased twice
+Process board,Step 4: Follow up & answer asks,AI opportunity (33A card),Open-loop detection + daily 'who's waiting on you' + grounded follow-up drafts
+Process board,Step 4: Follow up & answer asks,With Recall: human,Opens the daily list; edits the draft; sends
+Process board,Step 4: Follow up & answer asks,Dot votes,5
+Process board,"Step 5: Discovery, demo, proposal",Input,"Requirements, budget, timelines"
+Process board,"Step 5: Discovery, demo, proposal",Actions by human (today),"Writes approach notes, proposals, SOWs; Pranav builds demos"
+Process board,"Step 5: Discovery, demo, proposal",Digital tools in use,"Docs, decks, email"
+Process board,"Step 5: Discovery, demo, proposal",Pain points (today),AgroLink proposal due 10 Jul not started; ShopSwift SOW due 15 Jul; BlueOrchid approach note never sent
+Process board,"Step 5: Discovery, demo, proposal",AI opportunity (33A card),Deadline tracking from client text; (later) proposal first-drafts
+Process board,"Step 5: Discovery, demo, proposal",With Recall: human,Sees client deadlines on the list; writes the proposal
+Process board,"Step 5: Discovery, demo, proposal",Dot votes,3
+Process board,Step 6: Negotiate & close,Input,"Pricing objections, references, security questionnaires, contracts"
+Process board,Step 6: Negotiate & close,Actions by human (today),"Founder handles pricing; asks team for references, security answers"
+Process board,Step 6: Negotiate & close,Digital tools in use,"Email, e-sign"
+Process board,Step 6: Negotiate & close,Pain points (today),"Competition invisible in CRM (VoltEnergy, CloudNine, FreshCart); NovaPharma 78-question questionnaire unowned"
+Process board,Step 6: Negotiate & close,AI opportunity (33A card),Competitor and stakeholder extraction; priority score uses competition; owner nudges
+Process board,Step 6: Negotiate & close,With Recall: human,Sees competition and stakeholders per deal; decides price
+Process board,Step 6: Negotiate & close,Dot votes,4
+Process board,Step 7: Grow the account,Input,"Happy-client emails, QBRs, renewals, referrals"
+Process board,Step 7: Grow the account,Actions by human (today),Promises samples/scope notes; often forgets to log the new opportunity
+Process board,Step 7: Grow the account,Digital tools in use,"Email, meeting notes"
+Process board,Step 7: Grow the account,Pain points (today),"Cross-sells unlogged: Acme (2), Northwind, Sunrise (2), GlobalMart, PayTrack, DataNest"
+Process board,Step 7: Grow the account,AI opportunity (33A card),Cross-sell / renewal / referral classification → 'log opportunity' suggestions
+Process board,Step 7: Grow the account,With Recall: human,Taps 'log it' on suggested cross-sells; routes to account owner
+Process board,Step 7: Grow the account,Dot votes,4
+Process board,Step 8: Revisit parked & lost,Input,"'Check back in Q4', OOO replies, lost-on-price"
+Process board,Step 8: Revisit parked & lost,Actions by human (today),Relies on memory to revisit
+Process board,Step 8: Revisit parked & lost,Digital tools in use,None
+Process board,Step 8: Revisit parked & lost,Pain points (today),Quantia asked for Q2 revisit; Vertex never reconnected; Kaveri and ClearPath came back while CRM says Lost
+Process board,Step 8: Revisit parked & lost,AI opportunity (33A card),Revisit-date extraction; reopen suggestions when a lost client writes back
+Process board,Step 8: Revisit parked & lost,With Recall: human,Gets the revisit on the due date with the client's original words
+Process board,Step 8: Revisit parked & lost,Dot votes,3
+Process board,Step 9: Pipeline review,Input,CRM export
+Process board,Step 9: Pipeline review,Actions by human (today),Monthly review; Jay reconciles CRM vs inboxes for ~2 hours
+Process board,Step 9: Pipeline review,Digital tools in use,"CRM export, inbox search"
+Process board,Step 9: Pipeline review,Pain points (today),'We find out what's urgent by accident'; HealthFirst board date found mid-meeting
+Process board,Step 9: Pipeline review,AI opportunity (33A card),Ranked queue with reasons; CRM health metric; Q&A over conversations with citations
+Process board,Step 9: Pipeline review,With Recall: human,"Starts the review from a ranked, current list; no reconciliation"
+Process board,Step 9: Pipeline review,Dot votes,4
+Scoring,O1,Impact 5 x Feasibility 4 = 20 (Build v1),"Multi-channel capture: read email, notes, WhatsApp, iMessage, Slack, call summaries, voice memos [Information extraction (LLM, structured output)]"
+Scoring,O2,Impact 5 x Feasibility 5 = 25 (Build v1),'Who's waiting on us' open-loop queue + daily brief per owner [Extraction + rules]
+Scoring,O3,Impact 4 x Feasibility 5 = 20 (Build v1),"Priority score using the CEO's rules (urgency, value, competition, relationship) [Rules (deterministic, explainable)]"
+Scoring,O4,Impact 5 x Feasibility 4 = 20 (Build v1),CRM field-update proposals with evidence; human approval; Kaizen export [Structured extraction + rules]
+Scoring,O5,Impact 4 x Feasibility 4 = 16 (Build v1),Grounded follow-up drafts (email / WhatsApp) [Generation (LLM)]
+Scoring,O6,Impact 4 x Feasibility 4 = 16 (Build v1),Missing-lead and duplicate detection [Entity resolution (rules + extraction)]
+Scoring,O7,Impact 4 x Feasibility 4 = 16 (Build v1),"Cross-sell, renewal, revisit and reopen detection [Classification (LLM)]"
+Scoring,O8,Impact 3 x Feasibility 4 = 12 (Build v1 (light)),Ask the pipeline: Q&A with citations [Retrieval (RAG) + generation]
+Scoring,O9,Impact 3 x Feasibility 4 = 12 (Later (v2)),Business-card / booth capture at conferences [OCR + extraction]
+Scoring,O10,Impact 4 x Feasibility 3 = 12 (Later (v2)),Proposal / SOW first drafts [Generation + retrieval over past proposals]
+Scoring,O11,Impact 4 x Feasibility 2 = 8 (Later (v2)),Security questionnaire auto-answers [Retrieval over policies + generation]
+Scoring,O12,Impact 4 x Feasibility 1 = 4 (Not now),Record and transcribe WhatsApp / FaceTime calls automatically [Speech-to-text]
+Scoring,O13,Impact 3 x Feasibility 1 = 3 (Not now),Win-probability prediction [Predictive ML]
+Scoring,O14,Impact 3 x Feasibility 3 = 9 (Rejected),Autonomous agent that sends follow-ups and updates the CRM itself [Agentic actions]
+Should / Should NOT,,Should,"Remember every ask, promise and date from every channel, with the exact words"
+Should / Should NOT,,Should,"Tell each owner, daily, who is waiting on them and why they rank where they do"
+Should / Should NOT,,Should,Draft replies that use only facts from the thread; leave gaps as [brackets]
+Should / Should NOT,,Should,Propose CRM updates and let a human approve each one
+Should / Should NOT,,Should,"Flag missing leads, duplicates, reopened deals and unlogged cross-sells"
+Should / Should NOT,,Should,Say 'I can't find that' instead of guessing
+Should / Should NOT,,Should NOT,Send anything to a client on its own
+Should / Should NOT,,Should NOT,"Write to Kaizen without approval, or bulk-approve AI judgements"
+Should / Should NOT,,Should NOT,"Invent prices, dates, scope or technical answers"
+Should / Should NOT,,Should NOT,"Mark a deal Won before signature, or reopen a Lost deal without the client saying so"
+Should / Should NOT,,Should NOT,Rank clients with a black-box model; ranks must be explainable rules
+Should / Should NOT,,Should NOT,Record calls covertly or store personal details unrelated to selling
+Should / Should NOT,,Should NOT,Replace Kaizen
+Feature → capability → guardrail,Capture & extract signals,Information extraction to a JSON schema (tool use); Claude Haiku 5.5,G1 quote-or-drop: verbatim quote check in code; G8 minimum context
+Feature → capability → guardrail,Waiting-on-us queue,Rules over extracted signals; No model,"G5 rules rank, with breakdown; G6 dates from evidence"
+Feature → capability → guardrail,Priority score,Weighted rules (40/30/15/15); No model,G5 explainable; competition 'much lower' deprioritised per CEO rule
+Feature → capability → guardrail,CRM sync,Structured extraction + rule-derived dates; Haiku 5.5 + rules,G2 human approves every change; AI fields never bulk-approved; G7 conservative stage changes
+Feature → capability → guardrail,Follow-up drafts,Grounded generation; Claude Sonnet 5.5,G3 never sends; G4 [placeholders] for unknown facts; send blocked until filled
+Feature → capability → guardrail,Missing leads / duplicates,Entity resolution; Rules (email/domain/name),G2 merge only on approval; 'keep both' option
+Feature → capability → guardrail,Ask the pipeline,Retrieval + generation with citations; Sonnet 5.5,G9 invalid citations stripped; 'can't find' when no evidence
+Ethical risks,Hallucinated commitment or date,Explainability / accuracy,G1 quote check; G6 dates by rule; eval: 100% verbatim quotes before launch
+Ethical risks,Wrong message sent to a client,Accountability / human control,G3 drafts only; send disabled with gaps; founder sends
+Ethical risks,CRM corrupted by bad automation,Governance,G2 approvals; change log CSV with evidence; undo
+Ethical risks,Client data leaving the company,Privacy / security,API data under commercial terms; minimum context per call; no personal phone numbers in CRM; region-appropriate hosting
+Ethical risks,Recording calls without consent,Privacy / legal,No covert recording; post-call voice memo by the seller; read.ai only where already consented (Teams)
+Ethical risks,Over-trust: 'not in the queue' read as 'nobody waiting',Transparency,"Coverage shown (channels connected, items pending); 'gone quiet' list; weekly recall eval"
+Ethical risks,Alert fatigue (33 items),Usability,"P1/P2/P3 bands, owner filter, snooze; Later list collapsed"

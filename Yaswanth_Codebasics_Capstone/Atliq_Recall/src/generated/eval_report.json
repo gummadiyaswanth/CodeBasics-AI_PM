@@ -1,0 +1,55 @@
+{
+  "extraction_file": "src/generated/extraction.json",
+  "generated_at": "2026-10-14T16:14:03.858Z",
+  "waiting_on_us": {
+    "precision": 1,
+    "recall": 1,
+    "missed": [],
+    "extra": []
+  },
+  "gone_quiet": {
+    "precision": 1,
+    "recall": 1,
+    "missed": [],
+    "extra": []
+  },
+  "scheduled_or_needs_outcome": {
+    "precision": 1,
+    "recall": 1,
+    "missed": [],
+    "extra": []
+  },
+  "new_leads_not_in_crm": {
+    "precision": 1,
+    "recall": 1,
+    "missed": [],
+    "extra": []
+  },
+  "duplicates": {
+    "precision": 1,
+    "recall": 1,
+    "missed": [],
+    "extra": []
+  },
+  "reopened_lost": {
+    "precision": 1,
+    "recall": 1,
+    "missed": [],
+    "extra": []
+  },
+  "founders_priority_ranks": {
+    "finedge": 1,
+    "novapharma": 2,
+    "shopswift": 8,
+    "meridian": 11,
+    "healthfirst": 10
+  },
+  "founders_priority_all_in_top": 11,
+  "queue_size": 33,
+  "p1_count": 9,
+  "grounding": {
+    "checked": 152,
+    "failed": 0,
+    "exact_match_rate": 1
+  }
+}

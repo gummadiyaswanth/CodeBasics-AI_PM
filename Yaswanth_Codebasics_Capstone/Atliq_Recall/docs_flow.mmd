@@ -1,0 +1,23 @@
+flowchart TD
+    A[Conversation happens<br/>email / WhatsApp / iMessage / Slack / Teams call / phone call] --> B{How does it reach Recall?}
+    B -->|Email, Slack, read.ai| C[Connector pulls message]
+    B -->|Phone / WhatsApp / FaceTime call| D[Seller dictates 30-sec voice memo]
+    B -->|Anything else| E[Forward or paste into Quick capture]
+    C --> F[Strip signatures and editorial noise<br/>attach company list]
+    D --> F
+    E --> F
+    F --> G[Claude Haiku 5.5 extracts signals<br/>asks, promises, dates, budget, competitor, cross-sell, new lead]
+    G --> H{Quote found verbatim<br/>in the source? G1}
+    H -->|No| I[Drop signal, log for eval]
+    H -->|Yes| J[Signal store with evidence]
+    J --> K[Rules engine: open loops, dates, duplicates, CRM health]
+    K --> L[Priority score: urgency 40, value 30,<br/>competition 15, relationship 15]
+    L --> M[Today: who is waiting on you, ranked with reasons]
+    M --> N[Draft follow-up<br/>Claude Sonnet 5.5, gaps as brackets]
+    N --> O{Founder edits and sends?}
+    O -->|Sends| P[Mark replied: loop closed, follow-up clock reset]
+    O -->|Not yet| Q[Snooze or stays in queue]
+    K --> R[CRM sync: proposed field changes with evidence]
+    R --> S{Human approves? G2}
+    S -->|Approve| T[Write to Kaizen + change log]
+    S -->|Reject| U[Discard, feedback to eval set]

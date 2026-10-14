@@ -1,0 +1,37 @@
+{
+  "name": "recall-atliq",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "data": "tsx scripts/build-data.ts && python3 scripts/seed_extraction.py && python3 scripts/seed_drafts.py",
+    "verify": "tsx scripts/verify.ts",
+    "eval": "tsx scripts/eval.ts",
+    "extract:live": "tsx scripts/extract-live.ts",
+    "eval:live": "tsx scripts/extract-live.ts && tsx scripts/eval.ts src/generated/extraction_live.json",
+    "build": "tsx scripts/verify.ts && tsx scripts/eval.ts && tsc -b && vite build",
+    "build:single": "SINGLE=1 vite build --outDir dist-single",
+    "preview": "vite preview",
+    "test:gemini": "tsx scripts/test-gemini-mock.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "papaparse": "^5.7.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vercel/node": "^24.0.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
